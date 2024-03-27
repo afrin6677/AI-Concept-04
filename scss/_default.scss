@@ -15,7 +15,7 @@ html {
 body {
   box-sizing: border-box;
   overflow: hidden;
-  font-family: 'Urbanist', sans-serif;
+  font-family: var(--default-font);
   font-weight: 400;
   line-height: 1.7;
   position: relative;
@@ -121,7 +121,7 @@ h5 span {
 
 p {
   text-decoration: none;
-  font-family: Inter;
+  font-family: var(--default-font);
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -130,7 +130,7 @@ p {
 
 a {
   text-decoration: none;
-  font-family: Inter;
+  font-family: var(--default-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -158,7 +158,7 @@ label {
   text-decoration: none;
   cursor: pointer;
   // font-size: 1.25rem;
-  font-family: Inter;
+  font-family: var(--default-font);
   // font-weight: 600;
   line-height: 1.625rem;
   transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
@@ -186,7 +186,7 @@ label {
   text-decoration: none;
   cursor: pointer;
   // font-size: 1.25rem;
-  font-family: 'Urbanist', sans-serif;
+  font-family: var(--default-font);
   // font-weight: 600;
   line-height: 1.625rem;
   transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
@@ -213,7 +213,7 @@ label {
   text-decoration: none;
   cursor: pointer;
   // font-size: 1.25rem;
-  font-family: 'Urbanist', sans-serif;
+  font-family: var(--default-font);
   // font-weight: 600;
   line-height: 1.625rem;
   transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
@@ -245,7 +245,7 @@ label {
   text-decoration: none;
   cursor: pointer;
   font-size: 1.25rem;
-  font-family: 'Urbanist', sans-serif;
+  font-family: var(--default-font);
   font-weight: 600;
   line-height: 1.625rem;
 }
@@ -270,7 +270,7 @@ label {
   text-decoration: none;
   cursor: pointer;
   font-size: 1.25rem;
-  font-family: 'Urbanist', sans-serif;
+  font-family: var(--default-font);
   font-weight: 600;
   line-height: 1.625rem;
 }
@@ -283,6 +283,7 @@ label {
 
 .form-input {
   margin-bottom: 1rem;
+  font-family: var(--default-font);
 }
 
 .button-secondary {
@@ -298,7 +299,7 @@ label {
   text-decoration: none;
   cursor: pointer;
   font-size: 1.25rem;
-  font-family: 'Urbanist', sans-serif;
+  font-family: var(--default-font);
   font-weight: 600;
   line-height: 1.625rem;
 }
@@ -335,7 +336,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   color: rgba(var(--color-black), 0.5);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--default-font);
 }
 
 /* Define the slide-up animation */
@@ -445,7 +446,7 @@ label.error {
   color: var(--color-secondary);
   text-align: center;
   /* Text lg/Semibold */
-  font-family: Inter;
+  font-family: var(--default-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -455,12 +456,11 @@ label.error {
 
 .text-md {
   /* Display md/Bold */
-  font-family: Inter;
+  font-family: var(--default-font);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  /* 122.222% */
   letter-spacing: -0.72px;
 }
 
